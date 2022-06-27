@@ -1,0 +1,440 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+   margin: 0px auto;
+}
+
+img{
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.container{
+   width: 1140px;
+   margin: 0px auto;
+   padding: 0px 20px;
+}
+
+.text-box{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+   margin-bottom: 140px;
+}
+
+.logo-link{
+   vertical-align: middle;
+}
+
+.loggo-img{
+   width: 160px;
+}
+
+
+.menu{
+   display: flex;
+   list-style: none;
+}
+
+
+.menu-item{
+   padding-left: 40px;
+   font-weight: 400;
+   font-size: 18px;
+   color: #1F1534;
+}
+
+.bob{
+   padding-left: 0px;
+}
+
+
+.menu-link{
+   text-decoration: none;
+}
+
+.active{
+   color: #111;
+}
+
+/*-------------------- header qismi tugadi ----------------------*/
+
+
+
+.did{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   vertical-align: middle;
+   margin-bottom: 113px;
+}
+
+.head-container{
+   width: 427px;
+   font-size: 48px;
+   color: #000000;
+   margin-bottom: 25px
+}
+
+.hero-text{
+   width: 445px;
+   font-size: 21px;
+   color: #7D7987;
+   margin-bottom: 48px;
+}
+
+.link-container{
+   width: 200px;
+   padding: 10px 40px;
+   background-color: #458ff6;
+   text-decoration: none;
+   border-radius: 55px; 
+   color: #fff;
+}
+
+.hero-img{
+   vertical-align: middle;
+   display: inline-block;
+}
+
+/* ---------------------------1chi section tugdi------------------- */
+.roof{
+   margin-bottom: 80px;
+}
+
+.heading-container{
+   font-size: 36px;
+   color: #000000;
+   text-align: center;
+}
+
+.line{
+   display: block;
+   margin: auto;
+   width: 56px;
+   height: 2px;
+   background: #000000;
+   border-radius: 5px;
+}
+
+.text{
+   margin: 0px auto;
+   width: 850px;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 30px;
+   color: #7D7987;
+   text-align: center;
+   padding-top: 30px;
+}
+
+/*---------------- boshqa bolim--------------------- */
+.services-section{
+   margin-bottom: 220px;
+}
+.services-list{
+   display: flex;
+   flex-wrap: wrap;
+   margin: -8px;
+   list-style: none;
+   margin: 0px;
+   padding-left: 0px;
+}
+
+.services-item{
+   width: 350px;
+   margin: 8px;
+   padding: 54px 45px 47px 39px;
+   background: #FFFFFF;
+   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+   border-radius: 20px;
+}
+
+.item-img{
+   margin-bottom: 22px;   
+}
+
+.item-title{
+   margin: 0px;
+   margin-bottom: 10px;
+   font-weight: bold;
+   font-size: 24px;
+   color: #000000;
+}
+
+.item-text{
+   font-size: 16px;
+   color: #7D7987;
+}
+
+.just{
+   margin-top: 70px;
+   margin-left: 480px;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none;
+   border: 3px solid #458ff6;
+   color: #458ff6;
+   border-radius: 50px; 
+   padding: 13px 51px;  
+   border: 1.4px solid #458FF6;
+   border-radius: 55px;
+   font-size: 18px;
+   color: #458FF6;
+}
+
+
+/*------------ 2chi section tugadi----------------- */
+
+
+.door{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 229px;
+}
+
+.mice-container{
+   width: 486px;
+}
+
+.pig{
+   font-size: 36px;
+   color: #000000;
+}
+
+.lion{
+   display: block;
+   width: 56px;
+   height: 2px;
+   background: #000000;
+   border-radius: 5px; 
+}
+
+.phone{
+   font-weight: 300;
+   font-size: 18px;
+   color: #7D7987;
+}
+
+.floor{
+   display: inline-block;
+   text-decoration: none;
+   border: 3px solid #458ff6;
+   color: #458ff6;
+   border-radius: 50px; 
+   padding: 10px 51px;
+}
+
+
+
+.mouse{
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+
+
+/*---------------------- tugadi-------------------- */
+
+
+.door-box{
+   padding: 70px 118px 89px 53px;
+   width: 1120px;
+   background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+   border-radius: 24px; 
+}
+
+.door-item{
+   text-align: center;
+   font-weight: 700;
+   font-size: 36px;
+   color: #FFFF;
+   padding-top: 64px;
+   margin-bottom: 25px;
+}
+
+.lion-door{
+   display: block;
+   margin: 0px auto;
+   text-align: center;
+   width: 56px;
+   height: 2px;
+   background: #FFFFFF;
+   border-radius: 6px;
+}
+
+
+.sofa-section{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.fon-section{
+   display: flex;
+   align-items: center;
+
+}
+
+.bro{
+   display: inline-block;
+   vertical-align: middle;
+   border-radius: 500px;
+}
+
+.book-section{
+   margin-left: 30px;
+}
+
+.book-item{
+   font-size: 22px;
+   color: #FFFFFF;
+}
+
+.book-text{
+   font-size: 18px;
+   color: rgba(255, 255, 255, 0.85);
+}
+
+
+
+.text-item{
+   width: 420px;
+   font-size: 19px;
+   color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+/* tugadi */
+
+.climp-section{
+   margin-top: 284px;
+   margin-bottom: 72px;
+}
+
+.climp-item{
+   text-align: center;
+   font-size: 36px;
+   color: #000000;
+}
+
+.climp-box{
+   display: block;
+   margin: 0px auto;
+   text-align: center;
+   width: 56px;
+   height: 2px;
+   background: #000000;
+   border-radius: 6px;
+   margin-bottom: 72px;
+}
+
+
+.jump-menu{
+   display: flex;
+   justify-content: space-between;
+}
+
+.jump-item{
+   list-style: none;
+}
+
+.fish{
+   margin: 21px 51px 43px 33px;
+}
+
+.jump-item{
+   width: 251px;
+   font-size: 21px;
+   color: #000000;
+}
+
+.jump-list{
+   width: 266px; 
+   font-size: 16px;
+   color: #7D7987; 
+}
+
+.jump-link{
+   text-decoration: none;
+   font-size: 17px;
+   color: #4089ED;
+}
+
+/* -------------------------tugadi---------------------- */
+
+.sheep{
+   margin: 0px auto;
+}
+
+.sofa-link{
+   margin-top: 60px;
+   margin-left: 480px;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none;
+   border: 3px solid #458ff6;
+   color: #458ff6; 
+   padding: 13px 60px;  
+   text-decoration: none;
+   border: 1.4px solid #458FF6;
+   border-radius: 55px;font-weight: 700;
+   font-size: 18px;
+   color: #458FF6;
+   margin-bottom: 202px;
+}
+
+
+
+/* tugadi */
+
+
+footer{
+   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+   padding-top: 123px;
+   padding-bottom: 113px;
+}
+
+.water-box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.job-box{
+
+}
+
+.job-text{
+   width: 300px;
+   padding-top: 5px;
+   padding-bottom: 21px;
+   color: #FFFFFF;
+}
+
+.job-link{
+   text-decoration: none;
+   font-size: 16px;
+   color: #FFFFFF;
+}
+
+
+
+.bird-list{
+   list-style: none;
+}
+
+.bird-link{
+   font-size: 18px;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+strong{
+   font-size: 20px;
+   color: #FFFFFF;
+}
